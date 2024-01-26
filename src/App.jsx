@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="mainBody">
       <div className="topHeader">
-        <h1 className="header">MARVELO</h1>
-        <input placeholder="Search a Marvel Character" className="topInput" />
+        <h1 className="header">TOP BIGGEST NAIJA FOREX TRADERS</h1>
+        <input placeholder="Search a forex trader" className="topInput" />
       </div>
       <div className="cardBody">
         {characters.map((data, index) => (
@@ -28,7 +28,7 @@ function App() {
                 </div>
                 <div className="duration">
                   <ins>◷</ins>
-                  <p>Home: {data.homeworld}</p>
+                  {/* <p>Home: {data.homeworld}</p> */}
                 </div>
               </div>
               <hr />
